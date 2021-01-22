@@ -8,6 +8,10 @@ jdk:
   - openjdk8
   - openjdk11
 
+arch:
+  - amd64
+  - ppc64le
+
 # 2019-11-27, tatu: Let's try caching Maven dependencies
 cache:
   directories:
